@@ -3,12 +3,10 @@ This program randomly generates an integer between 1 and 12.
 And displays the English month names January, February, . . . , December for the numbers 1, 2, . . . , 12, accordingly.
 */
 
-import java.util.Scanner; //importing a scanner class
 
-public class Months
+public class NumbersToMonths
 {
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in); //creating a new scanner class object
 		
 		//generate random numbers between 1 and 12 inclusively
 		int monthNumber = (int)((Math.random() * 12) + 1);
